@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #131929;
+}
+#main #nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+#navleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+#navleft img{
+    height: 3rem;
+    width: 3rem;
+    /* background-color: black; */
+}
+#navleft p{
+    
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+}
+#navleft p span{
+    font-weight: bolder;
+}
+#navmid{
+    font-size: 17px;
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    transform: translateX(-60%);
+}
+#navmid input{
+    background-color: #111a22;
+    border: 0.5px solid white;
+    height: 2rem;
+    width: 9rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#navright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    /* background-color: rebeccapurple; */
+}
+#navright #lang{
+    color: white;
+    font-size: 15px;
+}
+#navright #lang i{
+    font-size: large;
+}
+#navright #button-div{
+    height: 40px;
+    width: 100px;
+    background:linear-gradient(to right,#111a22,rebeccapurple);
+    border:2px black solid;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navright #button-div i{
+    font-size: 20px;
+    color: white;
+}
+#navright #button-div span{
+    font-size: 13px;
+    color: white;
+}
+#hero{
+    height: calc(90%);
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero #lefthero{
+    height: 80%;
+    width: 50%;
+}
+#lefthero{
+    height: 80%;
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    /* line-height: 50px; */
+    padding:10px ;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lefthero #uppertext{
+    color: green;
+    font-size: 18px;
+}
+#lefthero h1{
+    font-size: 40px;
+}
+#lefthero p{
+    font-size: 18px;
+}
+#lefthero button{
+    height: 40px;
+    width: 100px;
+    background:linear-gradient(to right,#111a22,rebeccapurple);
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+#hero #righthero{
+    height: 90%;
+    width:50%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero #righthero img{
+    height: 82%;
+    width: 58%;
+    background-size: contain;
+    background-position: top;
+    border-radius: 20px;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    color: white;
+    background-color:#141a28;
+    padding:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10%;
+}
+#page2 h1{
+    font-size: 49px;
+    width: 80%;
+}
+#page2 h1 span{
+    color:greenyellow;
+}
+#page2 #box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+#page2 #upperbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#page2 #lowerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#page2 #box .box{
+    width: 35%;
+    /* line-height: 20px; */
+    border: 2px solid black;
+    background:linear-gradient(to right bottom, aqua , rebeccapurple);
+    border-radius: 6px;
+    padding: 6px;
+}
+#page2 #box .box #icon-box{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to right top,blue,rebeccapurple);
+
+}
+#page2 #box .box button{
+    height: 40px;
+    width: 100px;
+    background:linear-gradient(to right,#111a22,rebeccapurple);
+    border:2px black solid;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2 #box .box:hover{
+    background:linear-gradient(to top left,rebeccapurple,aqua);
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: #111a22;
+    display: flex;
+}
+#page3 #leftpage3{
+    height: 100%;
+    width: 50%;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#page3 #leftpage3 img{
+    height: 68%;
+    width: 67%;
+    background-size: contain;
+    background-position: top;
+    border-radius: 20px;
+}
+#page3 #rightpage3{
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    /* line-height: 50px; */
+    padding:10px ;
+    color: white;
+    padding: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#rightpage3 #uppertext{
+    color: green;
+    font-size: 18px;
+}
+#rightpage3 h1{
+    font-size: 40px;
+}
+#rightpage3 p{
+    font-size: 18px;
+}
+#rightpage3 #button{
+    display: flex;
+    gap:50px;
+}
+#rightpage3 #button button{
+    height: 40px;
+    width: 100px;
+    background:linear-gradient(to right,#111a22,rebeccapurple);
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+
+
+
+
+#page5{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 20px;
+    overflow-x: hidden;
+    background-color: #131929;
+}
+#page5 .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    height: 90%;
+    width: 23%;
+    border: 1px solid transparent;
+    padding: 30px;
+    border-radius: 9px;
+    background:linear-gradient(to top right, pink, aqua);
+}
+#page5 .card #icon{
+    height: 10%;
+    width: 10%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
