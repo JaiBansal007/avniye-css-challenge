@@ -317,3 +317,54 @@ body,html{
     /* align-items: center; */
     /* justify-content: center; */
 }
+#page6{
+    height: 90%;
+    width: 100%;
+    background-color: #141a28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#page6 p{
+    color: greenyellow;
+}
+#page6 h1{
+    font-size: 40px;
+}
+#page6 #big-div{
+    height: 15%;
+    width: 70%;
+    background-color:rgb(152, 138, 138);
+    border-radius: 10px;
+    mix-blend-mode:normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    gap: 20px;
+}
+
+#page6 #big-div h1{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#page6 .small-div{
+    height: 15%;
+    width: 70%;
+    background-color:rgb(152, 138, 138);
+    border-radius: 10px;
+    mix-blend-mode:normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    gap: 20px;
+}
+#page6 .small-div h1{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
