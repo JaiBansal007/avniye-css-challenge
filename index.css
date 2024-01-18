@@ -385,7 +385,8 @@ body,html{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 50px;
 }
 #footer i{
-    
+    font-size: 40px;
 }
